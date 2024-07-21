@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <!-- Start Screen -->
+        <div id="start-screen" class="screen">
+            <h1>Typing Game</h1>
+            
+            <!-- Practice Options -->
+            <div class="options-section">
+                <label>Practice Options:</label>
+                <div class="options">
+                    <button class="option-btn selected" data-type="practice" data-value="all">All</button>
+                    <button class="option-btn" data-type="practice" data-value="capital">A-Z</button>
+                    <button class="option-btn" data-type="practice" data-value="small">a-z</button>
+                    <button class="option-btn" data-type="practice" data-value="number">0-9</button>
+                </div>
+            </div>
+            
+            <!-- Speed Level -->
+            <div class="options-section">
+                <label>Speed Level:</label>
+                <div class="options">
+                    <button class="option-btn" data-type="speed" data-value="easy">Easy</button>
+                    <button class="option-btn selected" data-type="speed" data-value="medium">Medium</button>
+                    <button class="option-btn" data-type="speed" data-value="hard">Hard</button>
+                </div>
+            </div>
+            
+            <!-- Negative Marking -->
+            <div class="options-section">
+                <label>Negative Marking:</label>
+                <div class="options">
+                    <button class="option-btn" id="negative-marking" data-type="marking">Off</button>
+                </div>
+            </div>
+            
+            <!-- Target Score -->
+            <div class="options-section">
+                <label>Your Target:</label>
+                <input type="number" id="target-score" min="1" value="10">
+            </div>
+            
+            <button id="start-btn">Start Game</button>
+            
+            <p id="credit">By Rudra😄</p>
+        </div>
+        
+        <!-- Game Screen -->
+        <div id="game-screen" class="screen hidden">
+            <div id="score-display">Total Score: <span id="current-score">0</span></div>
+            <div id="game-controls">
+                <button id="pause-btn">Pause</button>
+            </div>
+            <div id="letter-container"></div>
+            <div id="danger-zone"></div>
+        </div>
+        
+        <!-- End Screen -->
+        <div id="end-screen" class="screen hidden">
+            <h2>Game Over</h2>
+            <p class="final-score">Your Score: <span id="final-score"></span></p>
+            <p>Problem keys:</p>
+            <div id="problem-keys"></div>
+            <button id="restart-btn">Restart</button>
+            <p id="credit">Made By Rudra</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
