@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Clicker Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Box Clicker Game</h1>
+        <h5>By Rudra</h5>
+        <div id="game-area">
+            <div id="box" class="hidden"></div>
+        </div>
+        <div id="game-info">
+            <div id="score">Score: <span id="score-value">0</span></div>
+            <div id="timer">Time: <span id="timer-value">30</span>s</div>
+        </div>
+        <div id="controls">
+            <button id="start-btn">Start Game</button>
+            <button id="restart-btn" class="hidden">Restart Game</button>
+        </div>
+        <div id="final-score" class="hidden">Final Score: <span id="final-score-value"></span></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
