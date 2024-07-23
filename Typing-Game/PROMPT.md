@@ -1,3 +1,8 @@
+
+<p align= "center">
+  <img src="https://cdn.dribbble.com/users/2147021/screenshots/4704853/managertyping.gif" alt="GIF" width="400" height="300" style="zoom: 1; margin-left: 20px;">
+</p>
+
 These steps outline how to build and enhance the typing game app in a structured, descriptive format.
 
 ## Step-by-Step Descriptive Prompt for Building the App
@@ -113,7 +118,7 @@ These steps outline how to build and enhance the typing game app in a structured
 23. Place the "Restart" and "Quit" buttons in one row.
 24. All letter boxes should be very light blue.
 25. Mention "By Rudra" below the typing game on the starting window.
-26. Add "Made By Rudra" on the game over window.
+26. Add "Made By Rudra" on the game over the window.
 27. Provide more comments in the code for better understanding by the coder.
 
-Thank You for time by Rudra
+Thank You for your time By Rudra
