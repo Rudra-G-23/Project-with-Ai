@@ -39,13 +39,13 @@ To get a local copy up and running, follow these simple steps:
 1. **Clone the repository:**
 
     ```sh
-    git clone https://github.com/your-username/typing-game.git
+    git clone https://github.com/Rudra-G-23/Typing-Game.git
     ```
 
 2. **Navigate to the project directory:**
 
     ```sh
-    cd typing-game
+    cd Typing-Game
     ```
 
 3. **Open the `index.html` file in your browser:**
@@ -95,7 +95,7 @@ This project uses resources from other creators. Please refer to the [RESOURCES]
 
 Your Name - Rudra Prasad Bhuyan
 
-My gmail - rudraprasadbhuyan000@gmail.com
+My Gmail - rudraprasadbhuyan000@gmail.com
 
-<!-- Project Link: [https://github.com/Rudra-G-23/typing-game](https://github.com/Rudra-G-23/typing-game) -->
+<!-- Project Link: [https://github.com/Rudra-G-23/Typing-Game](https://github.com/Rudra-G-23/Typing-Game) -->
 
