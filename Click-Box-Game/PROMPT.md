@@ -1,3 +1,8 @@
+
+<p align= "center">
+  <img src="https://cdn.dribbble.com/users/2147021/screenshots/4704853/managertyping.gif" alt="GIF" width="400" height="300" style="zoom: 2; margin-left: 20px;">
+</p>
+
 This plan ensures your game has a well-structured implementation with a visually appealing and engaging UI, responsive design, and smooth functionality.
 
 ### Step-by-Step Implementation Plan
