@@ -31,7 +31,7 @@ I wrote the initial prompt on the bus while traveling from college to home. Afte
 - [Features](#features)
 - [Contributing](#contributing)
 - [License](#license)
-- [Acknowledgements](#acknowledgements)
+<!-- [Acknowledgements](#acknowledgements) -->
 
 ## Installation
 
@@ -41,11 +41,11 @@ I wrote the initial prompt on the bus while traveling from college to home. Afte
 ### Steps
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/numbered-boxes-selection-app.git
+    git clone https://github.com/Rudra-G-23/Student attendance register.git
     ```
 2. Navigate to the project directory:
     ```bash
-    cd numbered-boxes-selection-app
+    cd Student attendance register
     ```
 3. Install dependencies:
     ```bash
@@ -79,8 +79,9 @@ I wrote the initial prompt on the bus while traveling from college to home. Afte
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
+<!--
 ## Acknowledgements
 
 - Thanks to [OpenAI](https://www.openai.com/) for providing guidance and tools.
 - Inspired by various interactive UI designs and projects.
+-->
